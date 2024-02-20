@@ -1,10 +1,8 @@
-import React from 'react';
-
 const Resume = () => {
   return (
     <div>
       <h1>Resume</h1>
-      <p>Here's a summary of my professional experience and qualifications:</p>
+      <p>Heres a summary of my professional experience and qualifications:</p>
       <h2>Education</h2>
       <p>High School Diploma | may 2018 | Ozark High School</p>
       <p>Coding Boot Camp | Currently Attending | Kansas Univeristy</p>

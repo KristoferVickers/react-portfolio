@@ -2,9 +2,9 @@ import ReactDOM from 'react-dom/client'
 import { createBrowserRouter, RouterProvider } from 'react-router-dom';
 import App from './App.jsx'
 import './index.css'
-import About from './pages/About.jsx'
-import Contact from './pages/Contact.jsx'
-import Resume from './pages/Resume.jsx'
+import About from './pages/about.jsx'
+import Contact from './pages/contact.jsx'
+import Resume from './pages/resume.jsx'
 import 'bootstrap/dist/css/bootstrap.min.css'
 
 const router = createBrowserRouter([

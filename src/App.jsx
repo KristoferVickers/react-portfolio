@@ -1,13 +1,46 @@
-import React from 'react';
+import "./index.css";
+import Header from "./components/header";
+import Footer from "./components/footer";
+import { Outlet } from "react-router-dom";
+import "bootstrap/dist/css/bootstrap.min.css";
+import { Container } from "react-bootstrap";
 
-const About = () => {
+const styles = {
+  headerContainer: {
+    position: "fixed",
+    width: "100%",
+    top: "0",
+    zIndex: "1",
+  },
+  container: {
+    marginTop: "200px",
+    marginBottom: "100px",
+    zIndex: "0"
+  },
+  footerContainer: {
+    position: "fixed",
+    width: "100%",
+    bottom: "0",
+    left: "0",
+    background: "#27024D",
+    zIndex: "1",
+  },
+};
+
+function App() {
   return (
     <div>
-      <h1>About Us</h1>
-      <p>This needs to be about me.</p>
-      <p>...</p>
+      <div style={styles.headerContainer}>
+        <Header />
+      </div>
+      <Container style={styles.container}>
+        <Outlet />
+      </Container>
+      <div style={styles.footerContainer}>
+        <Footer />
+      </div>
     </div>
   );
 }
 
-export default About;
+export default App;

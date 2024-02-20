@@ -1,10 +1,13 @@
-import React from 'react';
-
 const About = () => {
   return (
     <div>
-      <h1>About Me</h1>
-      <p>I am a 24 year old that lives in Springfield Mo. I am just trying to get my feet wet in the world of programming.</p>
+      <h2>About Me</h2>
+        <p>
+          Hi there I am Kristofer Vickers and I currently am attending the University of Kansas for their programming bootcamp. 
+        </p>
+        <p>I live in Springfield Mo with my girlfriend named Grace and our 3 animals.</p>
+
+        <p>Feel free to contact me if you would like</p>
     </div>
   );
 }
