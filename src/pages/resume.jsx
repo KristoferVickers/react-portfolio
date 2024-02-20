@@ -11,7 +11,7 @@ const Resume = () => {
       <h2>Experience</h2>
       <p>End Point Managment IT | Bass Pro | March 2023 - Present</p>
       <ul>
-        <li>The Technical Assistance Center (TAC) team provides technical support to the company’s end users over the phone, in person, or remotely via remote access software. Responsibilities for Endpoint Management roles include working and resolution of incident (break/fix) tickets, providing advanced technical support, providing backup and coaching to Outfitter Experience team, as well as other daily tasks and project tasks as assigned. </li>
+        <li>The Technical Assistance Center (TAC) team provides technical support to the companies end users over the phone, in person, or remotely via remote access software. Responsibilities for Endpoint Management roles include working and resolution of incident (break/fix) tickets, providing advanced technical support, providing backup and coaching to Outfitter Experience team, as well as other daily tasks and project tasks as assigned. </li>
         <li>Engineers scripts to automate processes and fixes for front line support.</li>
         <li>Provides coaching and feedback to Outfitter Experience and Endpoint Management team.</li>
         <li>Performs project work and duties as assigned.</li>
