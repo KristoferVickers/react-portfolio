@@ -1,7 +1,7 @@
 function Project() {
-    return (
-      <div>Project</div>
-    )
-  }
-  
-  export default Project
+  return (
+      <div style={{ color: 'white' }}>Project</div>
+  )
+}
+
+export default Project;

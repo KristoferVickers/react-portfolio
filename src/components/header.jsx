@@ -1,10 +1,19 @@
-const Header = () => {
-    return (
-        <header>
-        <h1> <i className="Bootcamp"></i> Kristofer Vickers</h1>
-        <h2>Full Stack Web Developer</h2>
-        </header>
-    );
-  }
+import { NavLink } from 'react-router-dom';
 
-  export default Header;
+const Header = () => {
+  return (
+    <header>
+      <h1>Kristofer Vickers</h1>
+      <nav>
+        <ul>
+          <li><NavLink to="/about" activeClassName="active">About Me</NavLink></li>
+          <li><NavLink to="/portfolio" activeClassName="active">Portfolio</NavLink></li>
+          <li><NavLink to="/contact" activeClassName="active">Contact</NavLink></li>
+          <li><NavLink to="/resume" activeClassName="active">Resume</NavLink></li>
+        </ul>
+      </nav>
+    </header>
+  );
+}
+
+export default Header;

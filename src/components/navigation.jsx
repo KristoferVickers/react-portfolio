@@ -1,12 +1,12 @@
 const Navigation = () => {
   return (
-    <nav>
-      <ul>
-        <li><a href="/">Home</a></li>
-        <li><a href="/about">About</a></li>
-        <li><a href="/contact">Contact</a></li>
-      </ul>
-    </nav>
+      <nav style={{ color: 'white' }}>
+          <ul>
+              <li><a href="/" style={{ color: 'white' }}>Home</a></li>
+              <li><a href="/about" style={{ color: 'white' }}>About</a></li>
+              <li><a href="/contact" style={{ color: 'white' }}>Contact</a></li>
+          </ul>
+      </nav>
   );
 }
 

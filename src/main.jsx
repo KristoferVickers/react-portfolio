@@ -5,6 +5,7 @@ import './index.css'
 import About from './pages/about.jsx'
 import Contact from './pages/contact.jsx'
 import Resume from './pages/resume.jsx'
+import Portfolio from './pages/portfolio.jsx'; 
 import 'bootstrap/dist/css/bootstrap.min.css'
 
 ReactDOM.createRoot(document.getElementById('root')).render(
@@ -12,8 +13,10 @@ ReactDOM.createRoot(document.getElementById('root')).render(
     <Routes>
       <Route path="/" element={<App />}>
         <Route index element={<About />} />
+        <Route path="about" element={<About />} />
         <Route path="contact" element={<Contact />} />
         <Route path="resume" element={<Resume />} />
+        <Route path="portfolio" element={<Portfolio />} /> 
       </Route>
     </Routes>
   </Router>
