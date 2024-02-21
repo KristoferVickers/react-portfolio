@@ -1,3 +1,5 @@
+import Portfolio from './portfolio.jsx';
+
 const Portfolio = () => {
     return (
       <div>
