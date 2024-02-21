@@ -8,7 +8,7 @@
 * [Installation](#installation)
 * [User Story](#user-story)
 * [Acceptance Criteria](#acceptance-criteria)
-* [Questions?](#questions?)
+* [Questions](#questions)
 
 
 ## Description:
