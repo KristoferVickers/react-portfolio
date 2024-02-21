@@ -1,5 +1,5 @@
 import ReactDOM from 'react-dom/client'
-import { createBrowserRouter, RouterProvider } from 'react-router-dom';
+import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
 import App from './App.jsx'
 import './index.css'
 import About from './pages/about.jsx'
@@ -7,27 +7,14 @@ import Contact from './pages/contact.jsx'
 import Resume from './pages/resume.jsx'
 import 'bootstrap/dist/css/bootstrap.min.css'
 
-const router = createBrowserRouter([
-    {
-      path: '/',
-      element: <App />,
-      children: [
-        {
-          index: true,
-          element: <About />,
-        },
-        {
-          path: '/contact',
-          element: <Contact />,
-        },
-        {
-          path: '/resume',
-          element: <Resume />,
-        },
-      ],
-    },
-  ]);
-
-  ReactDOM.createRoot(document.getElementById('root')).render(
-    <RouterProvider router={router} />
-  );
+ReactDOM.createRoot(document.getElementById('root')).render(
+  <Router>
+    <Routes>
+      <Route path="/" element={<App />}>
+        <Route index element={<About />} />
+        <Route path="contact" element={<Contact />} />
+        <Route path="resume" element={<Resume />} />
+      </Route>
+    </Routes>
+  </Router>
+);
