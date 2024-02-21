@@ -1,6 +1,4 @@
-import Portfolio from './pages/Portfolio';
-
-const Portfolio = () => {
+import Portfolio from './portfolio.jsx';
     return (
       <div>
         <h2 style={{ color: 'white' }}>Portfolio</h2>
