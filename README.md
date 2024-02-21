@@ -1,8 +1,24 @@
 # react-portfolio
 
+[![MIT License](https://img.shields.io/badge/License-MIT-blue.svg)](https://mit-license.org/)
+
+## Table of Contents
+* [License](#license)
+* [Description](#description)
+* [Installation](#installation)
+* [User Story](#user-story)
+* [Acceptance Criteria](#acceptance-criteria)
+* [Questions?](#questions?)
+
+
 ## Description:
 
 
+As a bootcamp student, I've created a professional portfolio using React to showcase my skills to potential employers. This project helped me solidify my understanding of React routes while building something practical for my career journey.
+
+## Installation:
+
+There is no installation
 
 ## User Story
 
@@ -41,3 +57,7 @@ THEN I see a link to a downloadable resume and a list of the developer’s profi
 WHEN I view the footer
 THEN I am presented with text or icon links to the developer’s GitHub and LinkedIn profiles, and their profile on a third platform (Stack Overflow, Twitter)
 ```
+
+## Questions?
+
+Please Contact me either via Email: Kristofervickers2018@gmail.com or reach out to me by going to my GitHub profile: https://github.com/KristoferVickers 
