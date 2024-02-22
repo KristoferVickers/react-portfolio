@@ -7,7 +7,8 @@
 * [Description](#description)
 * [Installation](#installation)
 * [User Story](#user-story)
-* [Acceptance Criteria](#acceptance-criteria)
+* [Acceptance Criteria](#acceptance-criteria)\
+* [Screen Shot](#screen-shot)
 * [Questions](#questions)
 
 
@@ -16,6 +17,9 @@
 
 As a bootcamp student, I've created a professional portfolio using React to showcase my skills to potential employers. This project helped me solidify my understanding of React routes while building something practical for my career journey.
 
+I wasnt able to get the app to run successfully on Netlify.
+
+I will add a screen shot of what it looks like though.
 ## Installation:
 
 There is no installation go to my Netlify and check out the deployed application. 
@@ -57,6 +61,10 @@ THEN I see a link to a downloadable resume and a list of the developer’s profi
 WHEN I view the footer
 THEN I am presented with text or icon links to the developer’s GitHub and LinkedIn profiles, and their profile on a third platform (Stack Overflow, Twitter)
 ```
+
+## Screen Shot
+
+<img src="public\assets\Portfolio Screenshot.png">
 
 ## Questions?
 
