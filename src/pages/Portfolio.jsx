@@ -1,7 +1,6 @@
 const Portfolio = () => {
   return (
-    <div>
-      <h2 style={{ color: 'white' }}>Portfolio</h2>
+    <div style={{ fontFamily: 'Playfair Display, serif', color: 'black' }}>      <h2 style={{ color: 'white' }}>Portfolio</h2>
       <div className="projects-container">
         <div className="project">
           <h3 style={{ color: 'white' }}>Cats and Cocktails</h3>
