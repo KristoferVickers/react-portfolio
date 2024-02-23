@@ -1,6 +1,6 @@
 const About = () => {
     return (
-        <div style={{ fontFamily: 'Playfair Display, serif', color: 'white' }}>
+        <div style={{ fontFamily: 'Playfair Display, serif', color: 'black' }}>
         <h2>About Me</h2>
         <div className="about-content" style={{ display: 'flex', alignItems: 'center' }}>
           <div className="about-text">
