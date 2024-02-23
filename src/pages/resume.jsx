@@ -1,6 +1,6 @@
 const Resume = () => {
     return (
-      <div style={{ fontFamily: 'Playfair Display, serif', color: 'white' }}>
+      <div style={{ fontFamily: 'Playfair Display, serif', color: 'black' }}>
         <h2>Education</h2>
         <p>High School Diploma | May 2018 | Ozark High School</p>
         <p>Coding Boot Camp | Currently Attending | Kansas University</p>
