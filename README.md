@@ -17,9 +17,6 @@
 
 As a bootcamp student, I've created a professional portfolio using React to showcase my skills to potential employers. This project helped me solidify my understanding of React routes while building something practical for my career journey.
 
-I wasnt able to get the app to run successfully on Netlify.
-
-I will add a screen shot of what it looks like though.
 ## Installation:
 
 There is no installation go to my Netlify and check out the deployed application. 
