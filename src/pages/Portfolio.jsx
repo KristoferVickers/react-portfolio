@@ -6,30 +6,30 @@ const Portfolio = () => {
         <div className="project">
           <h3 style={{ color: 'white' }}>Cats and Cocktails</h3>
           <a href="https://github.com/whimsically/cats-and-cocktails" style={{ color: 'white' }}>
-          <img src="public/assets/Cats_and_Cocktails.png" alt="Cats and Cocktails" style={{ width: '250px', height: '200px' }} />          </a>
+          <img src="public\assets\Cats and Cocktails.png" alt="Cats and Cocktails" style={{ width: '250px', height: '200px' }} />          </a>
         </div>
         <div className="project">
           <h3 style={{ color: 'white' }}>Day Scheduler</h3>
           <a href="https://github.com/KristoferVickers/work-day-scheduler" style={{ color: 'white' }}>
-            <img src="public/assets/Day_Scheduler.png" alt="Day_Scheduler" style={{ width: '250px', height: '200px' }} />
+            <img src="public\assets\Day Scheduler.png" alt="Day_Scheduler" style={{ width: '250px', height: '200px' }} />
           </a>
         </div>
         <div className="project">
           <h3 style={{ color: 'white' }}>Foodie Forum</h3>
           <a href="https://github.com/andria-goodwin/foodie-forum" style={{ color: 'white' }}>
-            <img src="public/assets/Foodie_Forum.png" alt="Foodie_Forum" style={{ width: '250px', height: '200px' }} />
+            <img src="public\assets\Foodie Forum.png" alt="Foodie_Forum" style={{ width: '250px', height: '200px' }} />
           </a>
         </div>
         <div className="project">
           <h3 style={{ color: 'white' }}>Password Generator</h3>
           <a href="https://github.com/KristoferVickers/password-generator" style={{ color: 'white' }}>
-            <img src="public/assets/Password_Generater_Project.png" alt="Password_Generator" style={{ width: '250px', height: '200px' }} />
+            <img src="public\assets\Password Generater Project.png" alt="Password_Generator" style={{ width: '250px', height: '200px' }} />
           </a>
         </div>
         <div className="project">
           <h3 style={{ color: 'white' }}>Weather Watchers</h3>
           <a href="https://github.com/KristoferVickers/weather-dashboard" style={{ color: 'white' }}>
-            <img src="public/assets/Weather_Watchers.png" alt="Weather_Watchers" style={{ width: '250px', height: '200px' }} />
+            <img src="public\assets\Weather Watchers.png" alt="Weather_Watchers" style={{ width: '250px', height: '200px' }} />
           </a>
         </div>
       </div>

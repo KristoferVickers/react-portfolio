@@ -9,7 +9,7 @@ const About = () => {
             </p>
           </div>
           <div className="about-image" style={{ marginLeft: '20px' }}>
-            <img src="public/assets/unnamed (4).png" alt="Kristofer Vickers" style={{ borderRadius: '50%', border: '5px solid white', boxShadow: '0px 0px 10px 5px rgba(255,255,255,0.7)' }} />
+            <img src="public\assets\unnamed (4).png" alt="Kristofer Vickers" style={{ borderRadius: '50%', border: '5px solid white', boxShadow: '0px 0px 10px 5px rgba(255,255,255,0.7)' }} />
           </div>
         </div>
       </div>
