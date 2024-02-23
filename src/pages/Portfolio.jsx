@@ -6,8 +6,7 @@ const Portfolio = () => {
         <div className="project">
           <h3 style={{ color: 'white' }}>Cats and Cocktails</h3>
           <a href="https://github.com/whimsically/cats-and-cocktails" style={{ color: 'white' }}>
-            <img src="public/assets/Cats_and_Cocktails.png" alt="Cats_and_Cocktails" style={{ width: '250px', height: '200px' }} />
-          </a>
+          <img src="public/assets/Cats_and_Cocktails.png" alt="Cats and Cocktails" style={{ width: '250px', height: '200px' }} />          </a>
         </div>
         <div className="project">
           <h3 style={{ color: 'white' }}>Day Scheduler</h3>
